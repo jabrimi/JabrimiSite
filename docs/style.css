@@ -99,3 +99,52 @@ img {
 img {
     clip-path: circle();
 }
+
+.redes_sociales {
+    background-color: pink !important;
+    color: white;
+}
+
+input {
+    font-size: 30px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.info {
+    font-size: 32px;
+}
+
+
+    @keyframes flicker {
+
+        0%,
+        18%,
+        22%,
+        25%,
+        53%,
+        57%,
+        100% {
+            text-shadow:
+                0 0 7px rgb(255, 0, 187),
+                0 0 10px rgb(242, 5, 135),
+                0 0 21px rgb(166, 13, 197),
+                0 0 10px rgb(255, 0, 187),
+                0 0 12px rgb(255, 0, 187);
+            color: rgba(255, 255, 255, 0.667);
+        }
+    
+        20%,
+        24%,
+        55% {
+            text-shadow: none;
+        }}
+
+h3 {
+    animation: flicker 1.5s infinite alternate;
+    font-size: 32px;
+    color: beige !important;
+}

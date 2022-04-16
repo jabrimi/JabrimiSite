@@ -13,15 +13,3 @@ function ver_contactos() {
 
 
 //JQuery
-
-$(document).ready(function(){
-    $("#esconder").click(function(){
-        $("h4").fadeToggle();
-        document.getElementById("esconder").innerHTML= "<h1>Mostrar</h1>"
-        
-    });
-  });
-
-  $(this).css('background-color', 'red');
-
-
